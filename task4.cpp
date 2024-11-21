@@ -31,10 +31,6 @@ int main()
 	else if (parametr == 2) {
 		std::cout << "Температура в цельсіях: " << ((temp - 32) * 5) / 9 << std::endl;
 	}
-	else {
-		std::cout << "Помилка! невірний параметр. " << std::endl;
-		return 0;
-	}
 
 	return 0;
 }
