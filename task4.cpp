@@ -26,10 +26,10 @@ int main()
 
 
 	if (parametr == 1) {
-		std::cout << "Температура у фаренгейтах: " << ((temp * 9) / 5) + 32 << std::endl;
+		std::cout << std::fixed << std::setprecision(2) << "Температура у фаренгейтах: " << ((temp * 9) / 5) + 32 << std::endl;
 	} 
 	else if (parametr == 2) {
-		std::cout << "Температура в цельсіях: " << ((temp - 32) * 5) / 9 << std::endl;
+		std::cout << std::fixed << std::setprecision(2) << "Температура в цельсіях: " << ((temp - 32) * 5) / 9 << std::endl;
 	}
 
 	return 0;
